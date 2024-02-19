@@ -9,4 +9,9 @@ public class RtController {
     public String getStringFromSimpleEndpoint() {
         return "Hey, hi from Docker online me why hello bye bye";
     }
+
+    @GetMapping("/rakesh")
+    public String getRakesh() {
+        return new String("Rakesh");
+    }
 }
